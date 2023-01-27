@@ -1,13 +1,33 @@
-# swipe-n-deploy-toybox
-<form action="https://api.web3forms.com/submit" method="POST">
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Add solid blue background */
+      body {
+        background-color: blue;
+      }
+      
+      /* Change text color to solid yellow */
+      p {
+        color: yellow;
+      }
 
-<input type="hidden" name="access_key" value="c5728ed2-7aab-4972-87be-c2cd8b712dac">
-
-    <input type="text" name="name" required>
-    <input type="email" name="email" required>
-    <textarea name="message" required></textarea>
-    <input type="hidden" name="redirect" value="https://web3forms.com/success">
-
-    <button type="submit">Submit Form</button>
-
-</form>
+      /* Center the form */
+      form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="c5728ed2-7aab-4972-87be-c2cd8b712dac">
+      <input type="text" name="name" required>
+      <input type="email" name="email" required>
+      <textarea name="message" required></textarea>
+      <input type="hidden" name="redirect" value="https://web3forms.com/success">
+      <button type="submit">Submit Form</button>
+    </form>
+  </body>
+</html>
